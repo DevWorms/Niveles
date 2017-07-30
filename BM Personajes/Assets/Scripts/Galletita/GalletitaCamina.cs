@@ -5,8 +5,7 @@ using UnityEngine;
 public class GalletitaCamina : MonoBehaviour
 {
     public GameObject StartPoint;
-    public GameObject EndPoint;
-    private AreaEffector2D galletita_T;
+    public GameObject EndPoint;    
     public float EnemySpeed;
     private bool GoRight;
     public Animator galletita;
@@ -14,8 +13,7 @@ public class GalletitaCamina : MonoBehaviour
 
     // Use this for initialization
     void Start ()
-    {
-        galletita_T = GetComponent<AreaEffector2D>();
+    {        
         if (!GoRight)
         {
             transform.position = StartPoint.transform.position;
@@ -29,16 +27,16 @@ public class GalletitaCamina : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        if (bagman.GetBool("GalletitaAttack") && GoRight)
+        if (bagman.GetBool("ataque_Galleta") && GoRight)
         {
-            galletita.SetBool("atacar", true);
-            galletita_T.enabled = true;
+            galletita.SetBool("galletaAtacar", true);
 
+            transform.position = new Vector3(transform.position.x - EnemySpeed * 3f * Time.deltaTime, transform.position.y, transform.position.z);
+            
         }
         else
         {
-            galletita.SetBool("atacar", false);
-            galletita_T.enabled = false;
+            galletita.SetBool("galletaAtacar", false);
             if (!GoRight)
             {
                 transform.position = Vector3.MoveTowards(transform.position, EndPoint.transform.position, EnemySpeed * Time.deltaTime);

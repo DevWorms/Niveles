@@ -16,16 +16,16 @@ public class GalletitaAtaque : MonoBehaviour {
     {
 		
 	}
-
+    
     void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.tag == "Player")
         {
-            Animacion.SetBool("GalletitaAttack", true);
+            Animacion.SetBool("ataque_Galleta", true);
         }
         else
         {
-            Animacion.SetBool("GalletitaAttack", false);
+            Animacion.SetBool("ataque_Galleta", false);
         }
     }
 
@@ -33,7 +33,7 @@ public class GalletitaAtaque : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            Animacion.SetBool("GalletitaAttack", false);
+            Animacion.SetBool("ataque_Galleta", false);
         }
     }
 }
