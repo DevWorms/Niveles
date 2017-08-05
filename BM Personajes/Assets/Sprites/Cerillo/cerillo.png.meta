@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: 10ca3e1703343cb488b465181a2d977f
+timeCreated: 1501858132
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cerillo_0
+    21300002: cerillo_1
+    21300004: cerillo_2
+    21300006: cerillo_3
+    21300008: cerillo_4
+    21300010: cerillo_5
+    21300012: cerillo_6
+    21300014: cerillo_7
+    21300016: cerillo_8
+    21300018: cerillo_9
+    21300020: cerillo_10
+    21300022: cerillo_11
+    21300024: cerillo_12
+    21300026: cerillo_13
+    21300028: cerillo_14
+    21300030: cerillo_15
+    21300032: cerillo_16
+    21300034: cerillo_17
+    21300036: cerillo_18
+    21300038: cerillo_19
+    21300040: cerillo_20
+    21300042: cerillo_21
+    21300044: cerillo_22
+    21300046: cerillo_23
+    21300048: cerillo_24
+    21300050: cerillo_25
+    21300052: cerillo_26
+    21300054: cerillo_27
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cerillo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1365
+        width: 65
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1365
+        width: 60
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1366
+        width: 59
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1365
+        width: 59
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1365
+        width: 54
+        height: 219
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1365
+        width: 61
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1011
+        width: 65
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1012
+        width: 60
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1012
+        width: 59
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1012
+        width: 59
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1008
+        width: 55
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_11
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1007
+        width: 64
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 689
+        width: 65
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 690
+        width: 65
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 690
+        width: 65
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 690
+        width: 65
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_16
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 690
+        width: 65
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_17
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 690
+        width: 64
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 65
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 356
+        width: 65
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_20
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 357
+        width: 65
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_21
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 356
+        width: 65
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_22
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 357
+        width: 65
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 356
+        width: 64
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_25
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 65
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 65
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cerillo_27
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 65
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
