@@ -61,4 +61,20 @@ public class BagmanMovement : MonoBehaviour {
         }
         
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        GameObject zeppelin = GameObject.FindGameObjectWithTag("Zeppelin");
+        zeppelin.GetComponent<ZeppelinMovement>().enabled = true;
+        bagMan.GetComponent<BagmanMovement>().enabled = false;
+
+        bagMan.GetComponent<Animator>().enabled = false;
+
+        bagMan.transform.parent = zeppelin.transform;
+
+
+
+    }
+
 }
