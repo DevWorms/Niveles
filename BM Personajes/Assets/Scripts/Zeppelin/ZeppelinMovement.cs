@@ -47,14 +47,31 @@ public class ZeppelinMovement:MonoBehaviour {
             anim.SetLayerWeight(0, 0);
             anim.SetTrigger("Dead");
             
-        }   
-   
-       
-
+        }           
     }
 
-   
-    
+    private void OnTriggerStay2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Galletota")
+        {
+            anim.SetBool("Shoot", true);
+        }
+        else
+        {
+            anim.SetBool("Shoot", false);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Galletota")
+        {
+            anim.SetBool("Shoot", false);
+        }
+    }
+
+
+
 
 
 
